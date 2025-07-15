@@ -63,12 +63,12 @@ Purpose: Selects an optimal threshold for converting predicted probabilities int
 
 Example order to run:
 
-python data_processor.py
-python extract_features.py
-python train_xgboost.py
-python prune_and_retrain.py      # optional
-python select_threshold.py
-python test_cnn.py
-python test_gnn.py
-python test_sample.py
+1. python data_processor.py
+2. python extract_features.py
+3. python train_xgboost.py
+4. python prune_and_retrain.py      # optional
+5. python select_threshold.py
+6. python test_cnn.py
+7. python test_gnn.py
+8. python test_sample.py
 
